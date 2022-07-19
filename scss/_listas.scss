@@ -1,0 +1,11 @@
+$encabezados: 2.5rem, 2rem;
+
+
+
+h1 {
+    font-size: nth($encabezados, 1);
+}
+
+h2 {
+    font-size: nth($encabezados, 2);
+}

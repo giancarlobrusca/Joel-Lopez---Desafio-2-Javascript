@@ -1,0 +1,12 @@
+Agregué estas descripciones en cada página respectivamente 
+<meta name="description" content="Tyler, The Creator's Official Webpage">
+<meta name="description" content="Tyler, The Creator's History">
+<meta name="description" content="Tyler, The Creator's Music">
+<meta name="description" content="Tyler, The Creator's Fashion">
+<meta name="keywords" content="Clothes, Fashion, Ecommerce, Buy">
+
+Junto a ellas, seleccioné estas keywords que están repartidas entre las secciones a las cuales corresponden y todas juntas en la página principal
+Art, Music, Rap, HipHop, Pop, Fashion, Ecommerce, Interview, Bio, Clothes, Information, Buy
+
+Modifiqué también los títulos y las descripciones de todos los videos e imágenes de la web para generar relevancia.
+

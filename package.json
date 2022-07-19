@@ -1,0 +1,28 @@
+{
+  "name": "tyler-the-creator-gr---joel-lopez",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/styles.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joelnzl/Tyler-Lopez-Joel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joelnzl/Tyler-Lopez-Joel/issues"
+  },
+  "homepage": "https://github.com/joelnzl/Tyler-Lopez-Joel#readme",
+  "devDependencies": {
+    "node": "^17.7.2",
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  },
+  "description": "Tyler The Creator's webpage, the site of the multi-talented artist from California"
+}

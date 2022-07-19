@@ -1,0 +1,132 @@
+@import 'listas';
+@import 'extends';
+@import 'mixins';
+
+/* body */
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+/* navbar*/
+
+nav {
+
+    text-align: center;
+    
+
+}
+
+.bg-light {
+    --bs-bg-opacity: 0;
+}
+
+.navbar-collapse {
+    justify-content: center;
+}
+
+a {
+    width: 10%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+/* texto */
+main {
+    text-align: center;
+}
+
+h1,
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+
+}
+
+.pmerch {
+    text-align: center;
+}
+
+.tylerp {
+    padding-top: 250px;
+}
+
+.indexpmobile {
+    padding-top: 2%;
+    text-align: center;
+}
+
+.tylerpmobile {
+    padding-top: 2%;
+    text-align: center;
+}
+
+.fashionpmobile {
+    padding-top: 2%;
+    text-align: center;
+}
+
+/* footer */
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1em;
+    font-size: 0.9em;
+}
+
+audio {
+    margin-top: 6%;
+}
+
+/* Configuracion para resolucion mobile */
+
+.mobile {
+
+    display: none;
+
+}
+
+@media (max-width: 1203px) {
+
+    .mobile {
+
+        display: block;
+
+    }
+
+    .dekstop {
+
+        display: none;
+    }
+
+}
+
+/* transicion para seccion music */
+
+audio {
+
+    transition: all 0.3s ease-in-out;
+}
+
+audio:hover {
+
+    transform: scale(1.5);
+}
+
+img {
+    width: 100%;
+}
