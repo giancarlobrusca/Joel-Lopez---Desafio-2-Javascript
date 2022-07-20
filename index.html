@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Tyler, The Creator's Official Merchandising">
+        <meta name="keywords" content="Clothes, Fashion, Ecommerce, Buy">
+
+        <!--protocolo open graph-->
+        <meta property="og:title" content="TYLER THE CREATOR">
+        <meta property="og:url" content="https://www.tylerthecreator.com/merch">
+
+        <!-- Linkeo boostrap -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+            crossorigin="anonymous"
+        >
+
+        <!-- Linkeo css -->
+        <link rel="stylesheet" href="css/style.css">
+
+        <title>TYLER, THE CREATOR</title>
+    </head>
+
+    <body>
+
+        <!-- Navbar -->
+
+        <header>
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Tyler, The Creator - Official Merchandising</a>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Contenido principal -->
+
+        <main>
+
+            <h1 class="titulos">BUY</h1>
+
+            <section class="products">
+                <ul>
+                    <li>
+                        <img src="fotos/producto1.jpg" />
+                        <p>Hat</p>
+                        <p>Price: 100</p>
+                        <button onclick="addProduct({ name: 'Hat', price: 100 })">Add to cart</button>
+                    </li>
+                    <li>
+                        <img src="fotos/producto2.jpg" />
+                        <p>Shoes</p>
+                        <p>Price: 300</p>
+                        <button onclick="addProduct({ name: 'Shoes', price: 300 })">Add to cart</button>
+                    </li>
+                    <li>
+                        <img src="fotos/producto3.jpg" />
+                        <p>Hoodie</p>
+                        <p>Price: 200</p>
+                        <button onclick="addProduct({ name: 'Hoodie', price: 200 })">Add to cart</button>
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Shopping Cart</h2>
+                <h4 id="alert"></h4>
+                <span>Total: <b id="total"></b></span>
+            </section>
+
+            </div>
+
+        </main>
+
+        <!-- Footer -->
+
+        <footer>
+
+            Tyler Okonma
+
+        </footer>
+
+        <!-- Linkeo js -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/miarchivo.js"></script>
+        
+    </body>
+</html>
